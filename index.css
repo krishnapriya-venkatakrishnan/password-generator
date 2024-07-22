@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    text-align: left;
+}
+
+.password-generator {
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    background: #1F2937;
+    margin: 20px auto;
+    padding: 100px 50px 0px 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+span {
+    color: #55F991
+}
+
+.options {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.len {
+    width: 50px;
+}
+
+button {
+    margin: 20px 0px;
+    padding: 7px 20px;
+    font-size: 13px;
+    color: white;
+    background: #10B981;
+    border: none;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-around
+}
+
+#password1, #password2 {
+    margin-top: 30px;
+    padding: 7px 20px;
+    text-align: center;
+    color: #55F991;
+    background: #273549;
+    max-width: 150px;
+    word-wrap: break-word;
+    border: none;
+}
