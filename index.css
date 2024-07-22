@@ -47,7 +47,9 @@ hr {
 
 .passwords {
     display: flex;
-    justify-content: space-around
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #password1, #password2 {
@@ -56,7 +58,5 @@ hr {
     text-align: center;
     color: #55F991;
     background: #273549;
-    max-width: 150px;
-    word-wrap: break-word;
     border: none;
 }
